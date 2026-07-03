@@ -240,7 +240,7 @@ def run_analysis(project_root: str | Path = ".") -> Dict[str, pd.DataFrame]:
         project_root / "reports" / "figures",
     )
 
-    # Save cleaned datasets that are safe for local analysis. They are not ignored by default because they are derived outputs.
+    # Save cleaned datasets for local use. These files are ignored by Git because they may still contain row-level customer records.
     processed_dir = project_root / "data" / "processed"
     processed_dir.mkdir(parents=True, exist_ok=True)
     transactions.to_csv(processed_dir / "transactions_cleaned.csv", index=False)
