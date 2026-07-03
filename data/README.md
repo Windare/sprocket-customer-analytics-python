@@ -1,13 +1,39 @@
-# Data folder
+# Data Folder
 
-Place the source Excel workbook in:
+This folder is used to organize the datasets for the project.
+
+The raw data used for this analysis is not included in this public GitHub repository. This is intentional because the original file contains customer-level and transaction-level information from a practice business dataset.
+
+The project was developed using the KPMG/Sprocket Central customer analytics practice dataset, which includes customer demographic information, customer addresses, transaction records, and a new customer list.
+
+## Folder Structure
 
 ```text
-data/raw/Mentor_KPMG_Sprocket_Project_Dataset.xlsx
+data/
+├── raw/
+│   └── .gitkeep
+├── processed/
+│   └── .gitkeep
+└── README.md
 ```
 
-This project uses the Sprocket Central practice dataset from a KPMG-style customer analytics exercise. The raw Excel file is included in this local package so the notebook can run immediately, but `.gitignore` is configured to keep Excel files in `data/raw/` out of GitHub by default.
+## Description
 
-Before making the dataset public, confirm that you are allowed to redistribute it. If not, keep the workbook local and explain in the repository README how another user can obtain or replace the dataset.
+* `raw/`: This folder is intended for the original dataset before cleaning.
+* `processed/`: This folder is intended for cleaned or transformed datasets created during the analysis.
+* `.gitkeep`: This is an empty placeholder file that allows GitHub to display empty folders.
 
-Aggregate summary tables are saved in `reports/tables/`. Row-level cleaned outputs are generated locally in `data/processed/` and are ignored by Git by default because they can still contain customer-level records.
+## Why the Data Is Not Included
+
+The raw dataset is excluded from this repository to avoid publishing customer-level data. The analysis results, visualizations, summary tables, and project workflow are included so that the business problem, analytical process, and insights can still be reviewed.
+
+## How to Reproduce the Analysis
+
+To reproduce the analysis locally:
+
+1. Place the original dataset inside the `data/raw/` folder.
+2. Open the notebook in the `notebooks/` folder.
+3. Run the notebook step by step.
+4. Cleaned outputs can be saved into the `data/processed/` folder.
+
+The notebook and source code show the full data cleaning, analysis, and visualization workflow.
