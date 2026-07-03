@@ -1,0 +1,10 @@
+gender,wealth_segment,customer_count
+Female,Mass Customer,1044
+Female,High Net Worth,514
+Female,Affluent Customer,481
+Male,Mass Customer,910
+Male,High Net Worth,482
+Male,Affluent Customer,481
+Undisclosed,Mass Customer,46
+Undisclosed,High Net Worth,25
+Undisclosed,Affluent Customer,17

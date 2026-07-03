@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Raw data: keep local unless you are sure the dataset license permits public sharing
+# The Excel file is included in this package for local reproducibility, but Git will ignore it by default.
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Temporary outputs
+*.log
+
+# Processed row-level data can still contain customer-level records; regenerate locally instead of committing.
+data/processed/*.csv
