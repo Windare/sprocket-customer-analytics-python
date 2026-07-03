@@ -2,7 +2,7 @@
 
 This is a Python data analysis project based on a KPMG-style Sprocket Central practice dataset. The project cleans customer and transaction data, explores business patterns, and produces summary tables and visualisations that can support customer targeting and sales analysis.
 
-> **Portfolio goal:** The aim of this project is to use Python to clean, explore, and summarize customer and transaction data in order to identify useful business patterns.
+> This project helped me practise working with multi-sheet Excel data, cleaning inconsistent categories, creating summary tables, and connecting Python analysis to business questions.
 ---
 
 ## Business problem
