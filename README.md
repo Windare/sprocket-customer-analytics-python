@@ -109,45 +109,6 @@ kpmg-sprocket-customer-analysis/
 
 ---
 
-## How to run the project
-
-Clone the repository, create a virtual environment, and install the dependencies:
-
-```bash
-python -m venv .venv
-```
-
-On Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-On macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the full analysis pipeline:
-
-```bash
-python run_analysis.py
-```
-
-Open the notebook:
-
-```bash
-jupyter notebook notebooks/01_kpmg_sprocket_customer_analysis.ipynb
-```
-
----
 
 ## Analysis approach
 
