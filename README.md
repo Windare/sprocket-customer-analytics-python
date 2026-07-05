@@ -123,10 +123,3 @@ kpmg-sprocket-customer-analysis/
 - Structuring a GitHub portfolio project professionally
 
 ---
-
-## Possible next improvements
-
-- Build an interactive Power BI or Tableau dashboard from the cleaned CSV outputs.
-- Add customer segmentation using RFM-style features.
-- Combine demographic and transaction data to identify high-value customer profiles.
-- Add more advanced customer ranking/scoring for marketing recommendations.
